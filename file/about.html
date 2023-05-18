@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="about.css">
+    <title>About</title>
+</head>
+<body>
+
+    <div class="main">
+        <nav>
+            <a href="../index.html" class="logo">Ritik</a>
+            <ul class=" flex" id="ul">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="port.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-r-btn flex">
+                <a href="contact.html">Let's Talk</a>
+                <span class="material-symbols-outlined">
+                    arrow_forward
+                </span>
+            </div>
+            <div id="navmenu" class="nav-bar"><span id="nav-open" class="material-symbols-outlined open">
+                    menu
+                </span>
+                <span id="nav-close" class="material-symbols-outlined close">
+                    close
+                </span>
+            </div>
+        </nav>
+
+
+        <div class="ab">
+            <div class="text">
+                <h1>About.</h1>
+                <h1>A passionate</h1>
+                <h1>Full Stack Developer.</h1>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="a-con flex">
+                <div class="a-text" data-aos="fade-right">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt labore consequuntur
+                        consequatur sapiente odio quasi sit necessitatibus recusandae excepturi maxime, magni amet
+                        blanditiis maiores ab, totam qui at numquam cumque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt labore consequuntur
+                        consequatur sapiente odio quasi sit necessitatibus recusandae excepturi maxime, magni amet
+                        blanditiis maiores ab, totam qui at numquam cumque.</p>
+                </div>
+                <div class="a-img" data-aos="fade-left"></div>
+            </div>
+
+
+        </div>
+
+        <div class="contact">
+            <div class="h-con">
+                <h1 data-aos="fade-right">Do you want to know more about me?</h1>
+                <div data-aos="fade-left"><a href="mcq-8.pdf" target="_blank">Download CV</a></div>
+            </div>
+            <p class="c-p">Contact</p>
+
+            <form data-aos="fade-up" onsubmit="return validate()">
+                <div class="c-inp1">
+                    <div class="inp">
+                        <input id="inp-n" type="text" placeholder="Your Name">
+                        <p class="err" id="name-err">This Feild is Required</p>
+                    </div>
+                    <div class="inp">
+                        <input id="inp-e" type="text" placeholder="Email">
+                        <p class="err" id="email-err">This Feild is Required</p>
+                    </div>
+                    <div class="inp">
+                        <input id="inp-s" type="text" placeholder="Subject">
+                        <p class="err" id="sub-err">This Feild is Required</p>
+                    </div>
+
+
+                </div>
+                <div class="c-inp2">
+                    <textarea name="" id="inp-t" cols="30" rows="10" placeholder="Message"></textarea>
+                    <p class="err" id="text-err">This Feild is Required</p>
+                </div>
+                <input class="c-submit" type="submit">
+            </form>
+
+            <div class="social">
+                <div class="s-box">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="s-box">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="s-box">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="s-box">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="s-box">
+                    <i class="fa-brands fa-chrome"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        
+        
+    </div>
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 500,
+            // delay:200
+        });
+
+    </script>
+        <script src="main.js"></script>
+    
+</body>
+</html>

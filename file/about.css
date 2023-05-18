@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poppins&display=swap');
+
+.ab .text h1:nth-child(1) {
+    font-size: 200px;
+    padding-top: 100px;
+    font-weight: 800;
+    font-family: 'Megrim', cursive;
+}
+
+.ab {
+    padding: 20px 10%;
+    background-color: #FFEFAE;
+    height: 80vh;
+}
+
+.ab .text h1:nth-child(2) {
+    padding-left: 50px;
+}
+
+.ab .text h1:nth-child(3) {
+    padding-left: 150px;
+}
+
+@media only screen and (max-width:500px) {
+    .ab .text h1:nth-child(1) {
+        font-size: 100px;
+    }
+
+    .ab .text h1:nth-child(2) {
+        padding: 0;
+    }
+
+    .ab .text h1:nth-child(3) {
+        padding: 0
+    }
+}
