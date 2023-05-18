@@ -76,20 +76,21 @@
             <form data-aos="fade-up" onsubmit="return validate()">
                 <div class="c-inp1">
                     <div class="inp">
-                        <input id="inp-n" type="text" placeholder="Your Name">
+                        <input id="inp-n" type="text" placeholder="Your Name" name="name">
                         <p class="err" id="name-err">This Feild is Required</p>
                     </div>
                     <div class="inp">
-                        <input id="inp-e" type="text" placeholder="Email">
+                        <input id="inp-e" type="text" placeholder="Email" name="email">
                         <p class="err" id="email-err">This Feild is Required</p>
                     </div>
                     <div class="inp">
-                        <input id="inp-s" type="text" placeholder="Subject">
+                        <input id="inp-s" type="text" placeholder="Subject" name="subject">
                         <p class="err" id="sub-err">This Feild is Required</p>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://ritikv37.github.io/Porfolio">
                     </div>
-
-
                 </div>
+                
                 <div class="c-inp2">
                     <textarea name="" id="inp-t" cols="30" rows="10" placeholder="Message"></textarea>
                     <p class="err" id="text-err">This Feild is Required</p>
